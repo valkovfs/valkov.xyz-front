@@ -19,13 +19,6 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
       </main>
-      {session ? <div>
-        <button onClick={() => signOut()}>Sign out</button>
-      </div> :
-        <div>
-          <button onClick={() => signIn()}>Sign in</button>
-        </div>
-      }
     </>
   )
 }

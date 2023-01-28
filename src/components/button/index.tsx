@@ -1,9 +1,9 @@
+import { signIn, signOut } from "next-auth/react";
+
 export default function Button() {
   return (
     <div>
-      <button>
-
-      </button>
+      <button>Sign out</button>
     </div>
   )
 }
