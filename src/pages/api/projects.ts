@@ -13,12 +13,12 @@ export default async function handler(req, res) {
     }
 }
 async function getProjects(res) {
-
     try {
         const data = await prisma.project.findMany()
-        return res.json(data)
+        return res.json(data, { success: true })
     } catch (error) {
         console.log('No projects', error)
+        res.status(500).json( { error: 'Error fetching projects ', success: false })
     }
 }
 
@@ -36,6 +36,6 @@ async function createProject(req, res) {
         return res.status(200).json(newEntry, { success: true })
     } catch (error) {
         console.error('Request error', error)
-        res.status(500).json({ error: 'Error creating question', success: false })
+        res.status(500).json({ error: 'Error creating project', success: false })
     }
 }
