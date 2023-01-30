@@ -1,14 +1,17 @@
 import Link from 'next/link';
+import {Container} from "@/components/container/container";
 
 
 function Projects({data} : any) {
   console.log(data)
   return (
-    <div>
+    <div><Container>
       {data.map((project: any) =>
-      <div key={project.id}>
-        <Link href='project/[name]' as={`/project/${project.name}`}> {project.name}</Link>
-      </div>)}
+          <div key={project.id}>
+            <Link href='project/[name]' as={`/project/${project.name}`}> {project.name}</Link>
+          </div>)}
+    </Container>
+
     </div>
   )
 }
