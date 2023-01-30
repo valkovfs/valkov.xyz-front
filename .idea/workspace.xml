@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="14bdcc5f-5d2e-41da-8667-c2f81f3a55b2" name="Changes" comment="" />
+=======
+    <list default="true" id="14bdcc5f-5d2e-41da-8667-c2f81f3a55b2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+    </list>
+>>>>>>> 589e4c9 (add prisma schema, post and get handlers)
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,7 +41,10 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "prettierjs.PrettierConfiguration.Package": "C:\\Users\\valkov\\WebstormProjects\\valkov.xyz-front\\node_modules\\prettier",
+<<<<<<< HEAD
     "settings.editor.selected.configurable": "preferences.pluginManager",
+=======
+>>>>>>> 589e4c9 (add prisma schema, post and get handlers)
     "ts.external.directory.path": "C:\\Users\\valkov\\WebstormProjects\\valkov.xyz-front\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
@@ -48,15 +59,19 @@
       <updated>1674894155878</updated>
       <workItem from="1674894157040" duration="1643000" />
       <workItem from="1674895822722" duration="3084000" />
+<<<<<<< HEAD
       <workItem from="1674908554707" duration="130000" />
       <workItem from="1674908773683" duration="4435000" />
       <workItem from="1675100348911" duration="6996000" />
+=======
+>>>>>>> 589e4c9 (add prisma schema, post and get handlers)
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+<<<<<<< HEAD
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -68,4 +83,6 @@
       </map>
     </option>
   </component>
+=======
+>>>>>>> 589e4c9 (add prisma schema, post and get handlers)
 </project>
