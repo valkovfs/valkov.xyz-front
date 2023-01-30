@@ -1,11 +1,10 @@
 import { useRouter } from 'next/router';
-import { router } from 'next/client';
 
 const Project = () => {
-  const { name } = router.query
+  const router = useRouter()
 
   return (
-    <div>Project : {name}</div>
+    <div>Project : {router.query.name}</div>
   )
 }
 
